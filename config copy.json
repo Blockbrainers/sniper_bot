@@ -1,0 +1,65 @@
+{
+    "networks": [
+      {
+        "name": "Ethereum",
+        "rpcUrl": "https://eth-mainnet.g.alchemy.com/v2/BoLKbScFc2MvU9kXV3-Zh4CVK_D8hazN",
+        "wsUrl": "wss://eth-mainnet.g.alchemy.com/v2/BoLKbScFc2MvU9kXV3-Zh4CVK_D8hazN",
+        "exchanges": [
+					{
+						"name": "UniswapV2",
+						"factoryContractAddress": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+					},
+          {
+            "name": "UniswapV3",
+            "factoryContractAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984"
+          }
+        ]
+      },
+      {
+        "name": "Polygon",
+        "rpcUrl": "https://polygon-mainnet.g.alchemy.com/v2/-Dk7PkWL5qAFDP8kPvu760lQoxYOUWbZ",
+        "wsUrl": "wss://polygon-mainnet.g.alchemy.com/v2/-Dk7PkWL5qAFDP8kPvu760lQoxYOUWbZ",
+        "exchanges": [
+					{
+            "name": "UniswapV2",
+            "factoryContractAddress": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+          },
+          {
+            "name": "UniswapV3",
+            "factoryContractAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984"
+          }
+        ]
+      },
+			{
+        "name": "Arbitrum",
+        "rpcUrl": "https://arb-mainnet.g.alchemy.com/v2/rTiaqo6IU2ern-CTtfha0Q-1h1NCmhGK",
+        "wsUrl": "wss://arb-mainnet.g.alchemy.com/v2/rTiaqo6IU2ern-CTtfha0Q-1h1NCmhGK",
+        "exchanges": [
+          {
+            "name": "UniswapV2",
+            "factoryContractAddress": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+          },
+          {
+            "name": "UniswapV3",
+            "factoryContractAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984"
+          }
+        ]
+      },
+			{
+        "name": "Optimism",
+        "rpcUrl": "https://opt-mainnet.g.alchemy.com/v2/t8A6hL-UccB7z4Zz341yyB84k2y_-t_E",
+        "wsUrl": "wss://opt-mainnet.g.alchemy.com/v2/t8A6hL-UccB7z4Zz341yyB84k2y_-t_E",
+        "exchanges": [
+          {
+            "name": "UniswapV2",
+            "factoryContractAddress": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+          },
+          {
+            "name": "UniswapV3",
+            "factoryContractAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984"
+          }
+        ]
+      }
+    ]
+  }
+  

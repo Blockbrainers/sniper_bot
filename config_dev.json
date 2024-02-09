@@ -1,0 +1,36 @@
+{
+    "networks": [
+      {
+        "metadata": {
+          "name": "Goerli",
+          "symbol": "eth",
+          "chainId": "420",
+          "rpcUrl": "https://eth-goerli.g.alchemy.com/v2/BJJ5mSHZ2at8EojjhcoaE8nTtYu6eTNa",
+          "wsUrl": "wss://eth-goerli.g.alchemy.com/v2/BJJ5mSHZ2at8EojjhcoaE8nTtYu6eTNa",
+          "walletAddress": "0xAb91618c55A3eA07Ec5aCF6031D5faD719A26052",
+          "wrappedNativeAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        },
+        "exchanges": [
+					{
+						"name": "UniswapV2",
+            "baseImplementation": "UniswapV2",
+						"factoryContractAddress": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+					}
+        ]
+      },
+      {
+        "metadata": {
+          "name": "BNB Chain",
+          "symbol": "bnb",
+          "chainId": "56",
+          "rpcUrl": "https://bsc.publicnode.com",
+          "wsUrl": "wss://bsc.publicnode.com",
+          "walletAddress": "0xAb91618c55A3eA07Ec5aCF6031D5faD719A26052",
+          "wrappedNativeAddress": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+        },
+        "exchanges": [
+        ]
+      }
+    ]
+  }
+  
